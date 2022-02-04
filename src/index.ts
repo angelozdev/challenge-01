@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("container");
-  const game = new Game({ columns: 20, rows: 20, container });
+  const game = new Game({ columns: 6, rows: 15, container });
   console.log(game);
 });
 
