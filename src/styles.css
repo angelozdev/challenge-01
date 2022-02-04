@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  width: min(500px, 100%);
+  height: min(500px, 100vh);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  border: 1px solid #e6e6e6;
+  background: aquamarine;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.cell.highlight {
+  filter: brightness(1.2);
+}
