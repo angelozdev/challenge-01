@@ -4,11 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./index.ts" defer></script>
+    <script type="module" src="./index.ts" defer></script>
     <link rel="stylesheet" href="./styles.css" />
     <title>Challenge 01</title>
   </head>
   <body>
+    <div class="">
+      <button id="start" class="button">START</button>
+      <button id="reset" class="button">RESET</button>
+    </div>
+    <div>
+      <input type="number" placeholder="Number of rows" id="numberOfRows" />
+      <input
+        type="number"
+        placeholder="Number of columns"
+        id="numberOfColumns"
+      />
+    </div>
     <div id="container"></div>
   </body>
 </html>
